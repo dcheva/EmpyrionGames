@@ -1,0 +1,740 @@
+---
+# Sector configuration file
+Build: 2785
+
+SolarSystems:
+
+# System 'Murali System'
+  - Name: Murali System
+    Coordinates: [2102, 2923, 817]
+    Sectors:
+# Murali System
+    - Coordinates: [0, 0, 0]
+      SectorMapType: None
+      Color: "1,1,1"
+      Icon: No
+      Playfields:
+      - ['0, 0, 0', Murali System, Murali System]
+# Auske
+    - Coordinates: [109, -8, -50]
+      SectorMapType: Planet
+      Color: "0.04,0.8,0.1"
+      Icon: Circle
+      Allow: [Wex Orbit, Paniob Orbit, Staurra Sigma Station]
+      Deny: [Carneb Orbit, Heonith Vega Station, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Auske, Auske, 'Human:1']
+      - ['-7826, 4674, 1394', Auske Moon, Auske Moon]
+      - ['0, 0, 0', Auske Orbit, Auske Orbit]
+# Paniob
+    - Coordinates: [153, 57, -58]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Staurra Sigma Station, Awelone Orbit, Auske Orbit, Yupty Orbit, Brijmohan Orbit, Kalaji Orbit]
+      Deny: [Carneb Orbit, Heonith Vega Station, Wex Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Paniob, Paniob]
+      - ['0, 0, 0', Paniob Orbit, Paniob Orbit]
+# Staurra Sigma Station
+    - Coordinates: [117, -1, -177]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Paniob Orbit, Ruhake Rho Station, Olos Orbit, Auske Orbit]
+      Deny: [Carneb Orbit, Heonith Vega Station, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Staurra Sigma Station, Staurra Sigma Station]
+# Carneb
+    - Coordinates: [-177, -7, -18]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Zoinnai Orbit, Ruhake Rho Station]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Heonith Vega Station, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Carneb, Carneb]
+      - ['-292, 2946, -11234', Carneb Moon, Carneb Moon]
+      - ['0, 0, 0', Carneb Orbit, Carneb Orbit]
+# Heonith Vega Station
+    - Coordinates: [-102, 8, -26]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Olos Orbit, Kesava Orbit, Awelone Orbit]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Carneb Orbit, Wex Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Ruhake Rho Station]
+      Playfields:
+      - ['0, 0, 0', Heonith Vega Station, Heonith Vega Station]
+# Wex
+    - Coordinates: [74, 4, 29]
+      SectorMapType: Planet
+      Color: "0.15,0.3,0.04"
+      Icon: Circle
+      Allow: [Jaltur Asteroid Field, Auske Orbit]
+      Deny: [Paniob Orbit, Staurra Sigma Station, Carneb Orbit, Heonith Vega Station, Awelone Orbit, Alanor Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Wex, Wex]
+      - ['0, 0, 0', Wex Orbit, Wex Orbit]
+# Awelone
+    - Coordinates: [61, -15, 51]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Paniob Orbit, Zoinnai Orbit, Heonith Vega Station]
+      Deny: [Auske Orbit, Staurra Sigma Station, Carneb Orbit, Wex Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Awelone, Awelone]
+      - ['-10264, 6716, 1799', Awelone Moon, Awelone Moon]
+      - ['0, 0, 0', Awelone Orbit, Awelone Orbit]
+# Jaltur Asteroid Field
+    - Coordinates: [-15, -11, -79]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Alanor Orbit, Wex Orbit]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Carneb Orbit, Heonith Vega Station, Awelone Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Jaltur Asteroid Field, Jaltur Asteroid Field]
+# Alanor
+    - Coordinates: [-9, -16, 57]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Rheila Orbit, Jaltur Asteroid Field]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Carneb Orbit, Heonith Vega Station, Wex Orbit, Awelone Orbit, Yupty Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Alanor, Alanor]
+      - ['0, 0, 0', Alanor Orbit, Alanor Orbit]
+# Rheila
+    - Coordinates: [-48, -10, -10]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Yupty Orbit, Alanor Orbit]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Carneb Orbit, Heonith Vega Station, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Rheila, Rheila]
+      - ['0, 0, 0', Rheila Orbit, Rheila Orbit]
+# Yupty
+    - Coordinates: [-44, -4, 16]
+      SectorMapType: Planet
+      Color: "0.3,0.06,0.04"
+      Icon: Circle
+      Allow: [Kesava Orbit, Rheila Orbit, Paniob Orbit]
+      Deny: [Auske Orbit, Staurra Sigma Station, Carneb Orbit, Heonith Vega Station, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit]
+      Playfields:
+      - ['0, 0, 0', Yupty, Yupty]
+      - ['0, 0, 0', Yupty Orbit, Yupty Orbit]
+# Zoinnai
+    - Coordinates: [-63, 6, 139]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Awelone Orbit, Carneb Orbit]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Heonith Vega Station, Wex Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Ruhake Rho Station, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Zoinnai, Zoinnai]
+      - ['10375, 6229, -2801', Zoinnai Moon, Zoinnai Moon]
+      - ['0, 0, 0', Zoinnai Orbit, Zoinnai Orbit]
+# Ruhake Rho Station
+    - Coordinates: [-64, 13, -118]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Carneb Orbit, Staurra Sigma Station]
+      Deny: [Auske Orbit, Paniob Orbit, Heonith Vega Station, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Olos Orbit, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Ruhake Rho Station, Ruhake Rho Station]
+# Olos
+    - Coordinates: [-38, 6, 121]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Heonith Vega Station, Staurra Sigma Station]
+      Deny: [Auske Orbit, Paniob Orbit, Carneb Orbit, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Yupty Orbit, Zoinnai Orbit, Ruhake Rho Station, Kesava Orbit]
+      Playfields:
+      - ['0, 0, 0', Olos, Olos]
+      - ['-6337, -11574, 6300', Olos Moon, Olos Moon]
+      - ['0, 0, 0', Olos Orbit, Olos Orbit]
+# Kesava
+    - Coordinates: [-13, 2, 76]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Heonith Vega Station, Yupty Orbit]
+      Deny: [Auske Orbit, Paniob Orbit, Staurra Sigma Station, Carneb Orbit, Wex Orbit, Awelone Orbit, Jaltur Asteroid Field, Alanor Orbit, Rheila Orbit, Zoinnai Orbit, Ruhake Rho Station, Olos Orbit]
+      Playfields:
+      - ['0, 0, 0', Kesava, Kesava]
+      - ['3075, -12148, 9376', Kesava Moon, Kesava Moon]
+      - ['0, 0, 0', Kesava Orbit, Kesava Orbit]
+
+# System 'Tynori System'
+  - Name: Tynori System
+    Coordinates: [334, 2235, -2594]
+    Sectors:
+# Tynori System
+    - Coordinates: [0, 0, 0]
+      SectorMapType: None
+      Color: "1,1,1"
+      Icon: No
+      Playfields:
+      - ['0, 0, 0', Tynori System, Tynori System]
+# Eusur
+    - Coordinates: [-51, 2, 207]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Meratinu Orbit, Sepey Asteroid Field, Wetimus Orbit, Varkit Orbit, Kalaji Orbit, Brijmohan Orbit, Nilesh Orbit]
+      Deny: [Celes Orbit, Valis Orbit, Haelior Orbit, Namak Orbit, Osest Tau Station, Liackoum Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Eusur, Eusur]
+      - ['15053, -11492, -10071', Eusur Moon, Eusur Moon]
+      - ['0, 0, 0', Eusur Orbit, Eusur Orbit]
+# Celes
+    - Coordinates: [-32, -4, -182]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Liackoum Orbit, Sepey Asteroid Field, Wetimus Orbit]
+      Deny: [Eusur Orbit, Varkit Orbit, Valis Orbit, Haelior Orbit, Namak Orbit, Meratinu Orbit, Osest Tau Station, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Celes, Celes]
+      - ['-690, 11029, 2905', Celes Moon, Celes Moon]
+      - ['0, 0, 0', Celes Orbit, Celes Orbit]
+# Wetimus
+    - Coordinates: [-3, -9, 82]
+      SectorMapType: Planet
+      Color: "0.15,0.3,0.04"
+      Icon: Circle
+      Allow: [Valis Orbit, Celes Orbit, Eusur Orbit]
+      Deny: [Varkit Orbit, Sepey Asteroid Field, Haelior Orbit, Namak Orbit, Meratinu Orbit, Osest Tau Station, Liackoum Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Wetimus, Wetimus]
+      - ['8761, 7508, 4198', Wetimus Moon, Wetimus Moon]
+      - ['0, 0, 0', Wetimus Orbit, Wetimus Orbit]
+# Varkit
+    - Coordinates: [35, 10, -74]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Haelior Orbit, Liackoum Orbit, Eusur Orbit]
+      Deny: [Celes Orbit, Wetimus Orbit, Sepey Asteroid Field, Valis Orbit, Namak Orbit, Meratinu Orbit, Osest Tau Station, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Varkit, Varkit]
+      - ['-645, 10968, 6226', Varkit Moon, Varkit Moon]
+      - ['0, 0, 0', Varkit Orbit, Varkit Orbit]
+# Sepey Asteroid Field
+    - Coordinates: [-106, 3, 62]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Eusur Orbit, Celes Orbit]
+      Deny: [Wetimus Orbit, Varkit Orbit, Valis Orbit, Haelior Orbit, Namak Orbit, Meratinu Orbit, Osest Tau Station, Liackoum Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Sepey Asteroid Field, Sepey Asteroid Field]
+# Valis
+    - Coordinates: [-65, -6, 24]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Wetimus Orbit, Martek Orbit]
+      Deny: [Eusur Orbit, Celes Orbit, Varkit Orbit, Sepey Asteroid Field, Haelior Orbit, Namak Orbit, Meratinu Orbit, Osest Tau Station, Liackoum Orbit]
+      Playfields:
+      - ['0, 0, 0', Valis, Valis]
+      - ['-5585, -11634, 4395', Valis Moon, Valis Moon]
+      - ['0, 0, 0', Valis Orbit, Valis Orbit]
+# Haelior
+    - Coordinates: [24, -16, -24]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Namak Orbit, Varkit Orbit]
+      Deny: [Eusur Orbit, Celes Orbit, Wetimus Orbit, Sepey Asteroid Field, Valis Orbit, Meratinu Orbit, Osest Tau Station, Liackoum Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Haelior, Haelior]
+      - ['14009, 2463, 5144', Haelior Moon, Haelior Moon]
+      - ['0, 0, 0', Haelior Orbit, Haelior Orbit]
+# Namak
+    - Coordinates: [-21, 3, 3]
+      SectorMapType: Planet
+      Color: "0.3,0.06,0.04"
+      Icon: Circle
+      Allow: [Martek Orbit, Haelior Orbit]
+      Deny: [Eusur Orbit, Celes Orbit, Wetimus Orbit, Varkit Orbit, Sepey Asteroid Field, Valis Orbit, Meratinu Orbit, Osest Tau Station, Liackoum Orbit]
+      Playfields:
+      - ['0, 0, 0', Namak, Namak]
+      - ['10346, -3898, -7010', Namak Moon, Namak Moon]
+      - ['0, 0, 0', Namak Orbit, Namak Orbit]
+# Meratinu
+    - Coordinates: [55, -12, 113]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Osest Tau Station, Eusur Orbit]
+      Deny: [Celes Orbit, Wetimus Orbit, Varkit Orbit, Sepey Asteroid Field, Valis Orbit, Haelior Orbit, Namak Orbit, Liackoum Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Meratinu, Meratinu]
+      - ['-1161, 8356, 11925', Meratinu Moon, Meratinu Moon]
+      - ['0, 0, 0', Meratinu Orbit, Meratinu Orbit]
+# Osest Tau Station
+    - Coordinates: [67, -11, 57]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Liackoum Orbit, Meratinu Orbit]
+      Deny: [Eusur Orbit, Celes Orbit, Wetimus Orbit, Varkit Orbit, Sepey Asteroid Field, Valis Orbit, Haelior Orbit, Namak Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Osest Tau Station, Osest Tau Station]
+# Liackoum
+    - Coordinates: [83, -11, -117]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Celes Orbit, Osest Tau Station, Varkit Orbit]
+      Deny: [Eusur Orbit, Wetimus Orbit, Sepey Asteroid Field, Valis Orbit, Haelior Orbit, Namak Orbit, Meratinu Orbit, Martek Orbit]
+      Playfields:
+      - ['0, 0, 0', Liackoum, Liackoum]
+      - ['4914, 6213, -13416', Liackoum Moon, Liackoum Moon]
+      - ['0, 0, 0', Liackoum Orbit, Liackoum Orbit]
+# Martek
+    - Coordinates: [-83, 11, -10]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Valis Orbit, Namak Orbit]
+      Deny: [Eusur Orbit, Celes Orbit, Wetimus Orbit, Varkit Orbit, Sepey Asteroid Field, Haelior Orbit, Meratinu Orbit, Osest Tau Station, Liackoum Orbit]
+      Playfields:
+      - ['0, 0, 0', Martek, Martek]
+      - ['5009, 7653, 8556', Martek Moon, Martek Moon]
+      - ['0, 0, 0', Martek Orbit, Martek Orbit]
+
+# System 'Zok System'
+  - Name: Zok System
+    Coordinates: [636, 1221, 1653]
+    Sectors:
+# Zok System
+    - Coordinates: [0, 0, 0]
+      SectorMapType: None
+      Color: "1,1,1"
+      Icon: No
+      Playfields:
+      - ['0, 0, 0', Zok System, Zok System]
+# Brijmohan
+    - Coordinates: [157, 20, -109]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Ennyon Kappa Station, Vardham Asteroid Field, Doz Orbit, Aqualea Orbit, Paniob Orbit, Eusur Orbit, Nilesh Orbit, Kalaji Orbit]
+      Deny: [Rhiden Orbit, Inganis Orbit, Naset Asteroid Field, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Cogarea Orbit, Kovahran Orbit]
+      Playfields:
+      - ['0, 0, 0', Brijmohan, Brijmohan]
+      - ['0, 0, 0', Brijmohan Orbit, Brijmohan Orbit]
+# Rhiden
+    - Coordinates: [-153, 14, -86]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Inganis Orbit, Vardham Asteroid Field]
+      Deny: [Brijmohan Orbit, Aqualea Orbit, Naset Asteroid Field, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Cogarea Orbit, Ennyon Kappa Station, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Rhiden, Rhiden]
+      - ['7123, 7076, 11576', Rhiden Moon, Rhiden Moon]
+      - ['0, 0, 0', Rhiden Orbit, Rhiden Orbit]
+# Inganis
+    - Coordinates: [-98, 0, 115]
+      SectorMapType: Planet
+      Color: "0.15,0.3,0.04"
+      Icon: Circle
+      Allow: [Ennyon Kappa Station, Rhiden Orbit, Yithash Orbit]
+      Deny: [Brijmohan Orbit, Aqualea Orbit, Naset Asteroid Field, Vardham Asteroid Field, Kondasamy Orbit, Varonea Orbit, Cogarea Orbit, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Inganis, Inganis]
+      - ['0, 0, 0', Inganis Orbit, Inganis Orbit]
+# Aqualea
+    - Coordinates: [74, -1, -49]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Kovahran Orbit, Naset Asteroid Field, Brijmohan Orbit]
+      Deny: [Rhiden Orbit, Inganis Orbit, Vardham Asteroid Field, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Cogarea Orbit, Ennyon Kappa Station, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Aqualea, Aqualea]
+      - ['0, 0, 0', Aqualea Orbit, Aqualea Orbit]
+# Naset Asteroid Field
+    - Coordinates: [53, -1, -33]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Aqualea Orbit, Cogarea Orbit]
+      Deny: [Brijmohan Orbit, Rhiden Orbit, Inganis Orbit, Vardham Asteroid Field, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Ennyon Kappa Station, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Naset Asteroid Field, Naset Asteroid Field]
+# Vardham Asteroid Field
+    - Coordinates: [3, 10, -106]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Rhiden Orbit, Brijmohan Orbit, Cogarea Orbit]
+      Deny: [Inganis Orbit, Aqualea Orbit, Naset Asteroid Field, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Ennyon Kappa Station, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Vardham Asteroid Field, Vardham Asteroid Field]
+# Kondasamy
+    - Coordinates: [12, 5, 36]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Varonea Orbit, Kovahran Orbit]
+      Deny: [Brijmohan Orbit, Rhiden Orbit, Inganis Orbit, Aqualea Orbit, Naset Asteroid Field, Vardham Asteroid Field, Yithash Orbit, Cogarea Orbit, Ennyon Kappa Station, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Kondasamy, Kondasamy]
+      - ['6735, -7545, 6946', Kondasamy Moon, Kondasamy Moon]
+      - ['0, 0, 0', Kondasamy Orbit, Kondasamy Orbit]
+# Yithash
+    - Coordinates: [-40, 16, 33]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Doz Orbit, Varonea Orbit, Inganis Orbit]
+      Deny: [Brijmohan Orbit, Rhiden Orbit, Aqualea Orbit, Naset Asteroid Field, Vardham Asteroid Field, Kondasamy Orbit, Cogarea Orbit, Ennyon Kappa Station, Kovahran Orbit]
+      Playfields:
+      - ['0, 0, 0', Yithash, Yithash]
+      - ['0, 0, 0', Yithash Orbit, Yithash Orbit]
+# Varonea
+    - Coordinates: [-26, 4, -26]
+      SectorMapType: Planet
+      Color: "0.3,0.06,0.04"
+      Icon: Circle
+      Allow: [Yithash Orbit, Kondasamy Orbit]
+      Deny: [Brijmohan Orbit, Rhiden Orbit, Inganis Orbit, Aqualea Orbit, Naset Asteroid Field, Vardham Asteroid Field, Cogarea Orbit, Ennyon Kappa Station, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Varonea, Varonea]
+      - ['0, 0, 0', Varonea Orbit, Varonea Orbit]
+# Cogarea
+    - Coordinates: [71, 1, -27]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Naset Asteroid Field, Vardham Asteroid Field]
+      Deny: [Brijmohan Orbit, Rhiden Orbit, Inganis Orbit, Aqualea Orbit, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Ennyon Kappa Station, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Cogarea, Cogarea]
+      - ['12322, -1163, 10775', Cogarea Moon, Cogarea Moon]
+      - ['0, 0, 0', Cogarea Orbit, Cogarea Orbit]
+# Ennyon Kappa Station
+    - Coordinates: [70, 4, 91]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Brijmohan Orbit, Inganis Orbit]
+      Deny: [Rhiden Orbit, Aqualea Orbit, Naset Asteroid Field, Vardham Asteroid Field, Kondasamy Orbit, Yithash Orbit, Varonea Orbit, Cogarea Orbit, Kovahran Orbit, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Ennyon Kappa Station, Ennyon Kappa Station]
+# Kovahran
+    - Coordinates: [84, 13, -64]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Kondasamy Orbit, Aqualea Orbit]
+      Deny: [Brijmohan Orbit, Rhiden Orbit, Inganis Orbit, Naset Asteroid Field, Vardham Asteroid Field, Yithash Orbit, Varonea Orbit, Cogarea Orbit, Ennyon Kappa Station, Doz Orbit]
+      Playfields:
+      - ['0, 0, 0', Kovahran, Kovahran]
+      - ['0, 0, 0', Kovahran Orbit, Kovahran Orbit]
+# Doz
+    - Coordinates: [-80, 15, 57]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Yithash Orbit, Brijmohan Orbit]
+      Deny: [Rhiden Orbit, Inganis Orbit, Aqualea Orbit, Naset Asteroid Field, Vardham Asteroid Field, Kondasamy Orbit, Varonea Orbit, Cogarea Orbit, Ennyon Kappa Station, Kovahran Orbit]
+      Playfields:
+      - ['0, 0, 0', Doz, Doz]
+      - ['9065, -4697, 8205', Doz Moon, Doz Moon]
+      - ['0, 0, 0', Doz Orbit, Doz Orbit]
+
+# System 'Potani System'
+  - Name: Potani System
+    Coordinates: [-194, -2283, 2979]
+    Sectors:
+# Potani System
+    - Coordinates: [0, 0, 0]
+      SectorMapType: None
+      Color: "1,1,1"
+      Icon: No
+      Playfields:
+      - ['0, 0, 0', Potani System, Potani System]
+# Nilesh
+    - Coordinates: [161, 6, 104]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Pelator Asteroid Field, Normus Orbit, Jodyn Orbit, Xeria Orbit, Eusur Orbit, Brijmohan Orbit, Kalaji Orbit]
+      Deny: [Carnifex Orbit, Jolaj Asteroid Field, Tazuma Orbit, Seuda Orbit, Slek Orbit, Nitrome Pi Station, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Nilesh, Nilesh]
+      - ['-15435, -5961, -1186', Nilesh Moon, Nilesh Moon]
+      - ['0, 0, 0', Nilesh Orbit, Nilesh Orbit]
+# Normus
+    - Coordinates: [-154, 2, 108]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Nilesh Orbit, Carnifex Orbit, Seuda Orbit]
+      Deny: [Jodyn Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Xeria Orbit, Tazuma Orbit, Slek Orbit, Nitrome Pi Station, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Normus, Normus]
+      - ['0, 0, 0', Normus Orbit, Normus Orbit]
+# Jodyn
+    - Coordinates: [139, 4, 73]
+      SectorMapType: Planet
+      Color: "0.15,0.3,0.04"
+      Icon: Circle
+      Allow: [Adalna Orbit, Nilesh Orbit]
+      Deny: [Normus Orbit, Carnifex Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Slek Orbit, Nitrome Pi Station, Luunn Orbit]
+      Playfields:
+      - ['0, 0, 0', Jodyn, Jodyn]
+      - ['-6156, -5356, 6061', Jodyn Moon, Jodyn Moon]
+      - ['0, 0, 0', Jodyn Orbit, Jodyn Orbit]
+# Carnifex
+    - Coordinates: [-42, 4, -77]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Normus Orbit, Nitrome Pi Station]
+      Deny: [Nilesh Orbit, Jodyn Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Slek Orbit, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Carnifex, Carnifex]
+      - ['0, 0, 0', Carnifex Orbit, Carnifex Orbit]
+# Jolaj Asteroid Field
+    - Coordinates: [2, 6, 103]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Tazuma Orbit, Luunn Orbit]
+      Deny: [Nilesh Orbit, Normus Orbit, Jodyn Orbit, Carnifex Orbit, Pelator Asteroid Field, Xeria Orbit, Seuda Orbit, Slek Orbit, Nitrome Pi Station, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Jolaj Asteroid Field, Jolaj Asteroid Field]
+# Pelator Asteroid Field
+    - Coordinates: [145, -5, 5]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Slek Orbit, Nilesh Orbit]
+      Deny: [Normus Orbit, Jodyn Orbit, Carnifex Orbit, Jolaj Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Nitrome Pi Station, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Pelator Asteroid Field, Pelator Asteroid Field]
+# Xeria
+    - Coordinates: [-22, 7, 10]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Seuda Orbit, Nilesh Orbit]
+      Deny: [Normus Orbit, Jodyn Orbit, Carnifex Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Tazuma Orbit, Slek Orbit, Nitrome Pi Station, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Xeria, Xeria]
+      - ['0, 0, 0', Xeria Orbit, Xeria Orbit]
+# Tazuma
+    - Coordinates: [29, 0, -35]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Seuda Orbit, Jolaj Asteroid Field]
+      Deny: [Nilesh Orbit, Normus Orbit, Jodyn Orbit, Carnifex Orbit, Pelator Asteroid Field, Xeria Orbit, Slek Orbit, Nitrome Pi Station, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Tazuma, Tazuma]
+      - ['0, 0, 0', Tazuma Orbit, Tazuma Orbit]
+# Seuda
+    - Coordinates: [9, -14, -23]
+      SectorMapType: Planet
+      Color: "0.3,0.06,0.04"
+      Icon: Circle
+      Allow: [Xeria Orbit, Tazuma Orbit, Normus Orbit]
+      Deny: [Nilesh Orbit, Jodyn Orbit, Carnifex Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Slek Orbit, Nitrome Pi Station, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Seuda, Seuda]
+      - ['411, 12296, 9089', Seuda Moon, Seuda Moon]
+      - ['0, 0, 0', Seuda Orbit, Seuda Orbit]
+# Slek
+    - Coordinates: [102, 3, -77]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Nitrome Pi Station, Pelator Asteroid Field]
+      Deny: [Nilesh Orbit, Normus Orbit, Jodyn Orbit, Carnifex Orbit, Jolaj Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Slek, Slek]
+      - ['7653, -4311, -14738', Slek Moon, Slek Moon]
+      - ['0, 0, 0', Slek Orbit, Slek Orbit]
+# Nitrome Pi Station
+    - Coordinates: [71, -11, -118]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Slek Orbit, Carnifex Orbit]
+      Deny: [Nilesh Orbit, Normus Orbit, Jodyn Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Luunn Orbit, Adalna Orbit]
+      Playfields:
+      - ['0, 0, 0', Nitrome Pi Station, Nitrome Pi Station]
+# Luunn
+    - Coordinates: [53, 3, 83]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Jolaj Asteroid Field, Adalna Orbit]
+      Deny: [Nilesh Orbit, Normus Orbit, Jodyn Orbit, Carnifex Orbit, Pelator Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Slek Orbit, Nitrome Pi Station]
+      Playfields:
+      - ['0, 0, 0', Luunn, Luunn]
+      - ['0, 0, 0', Luunn Orbit, Luunn Orbit]
+# Adalna
+    - Coordinates: [90, -11, 45]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Luunn Orbit, Jodyn Orbit]
+      Deny: [Nilesh Orbit, Normus Orbit, Carnifex Orbit, Jolaj Asteroid Field, Pelator Asteroid Field, Xeria Orbit, Tazuma Orbit, Seuda Orbit, Slek Orbit, Nitrome Pi Station]
+      Playfields:
+      - ['0, 0, 0', Adalna, Adalna]
+      - ['11593, -3054, -3791', Adalna Moon, Adalna Moon]
+      - ['0, 0, 0', Adalna Orbit, Adalna Orbit]
+
+# System 'Nataraja System'
+  - Name: Nataraja System
+    Coordinates: [-1127, 2590, -2581]
+    Sectors:
+# Nataraja System
+    - Coordinates: [0, 0, 0]
+      SectorMapType: None
+      Color: "1,1,1"
+      Icon: No
+      Playfields:
+      - ['0, 0, 0', Nataraja System, Nataraja System]
+# Kalaji
+    - Coordinates: [153, 17, -151]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Ranane Orbit, Luvendis Orbit, Brandt Orbit, Paniob Orbit, Eusur Orbit, Brijmohan Orbit, Nilesh Orbit]
+      Deny: [Myneria Orbit, Girivar Delta Station, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Etzomal Orbit, Dynax Alpha Station, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Kalaji, Kalaji]
+      - ['0, 0, 0', Kalaji Orbit, Kalaji Orbit]
+# Myneria
+    - Coordinates: [-103, -6, -113]
+      SectorMapType: Planet
+      Color: "0.8,0.8,0.8"
+      Icon: Circle
+      Allow: [Girivar Delta Station, Luvendis Orbit, Anami Orbit]
+      Deny: [Kalaji Orbit, Ranane Orbit, Brandt Orbit, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Etzomal Orbit, Dynax Alpha Station]
+      Playfields:
+      - ['0, 0, 0', Myneria, Myneria]
+      - ['0, 0, 0', Myneria Orbit, Myneria Orbit]
+# Girivar Delta Station
+    - Coordinates: [-157, 9, -71]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Dynax Alpha Station, Myneria Orbit]
+      Deny: [Kalaji Orbit, Ranane Orbit, Brandt Orbit, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Etzomal Orbit, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Girivar Delta Station, Girivar Delta Station]
+# Ranane
+    - Coordinates: [93, 10, 87]
+      SectorMapType: Planet
+      Color: "0.15,0.3,0.04"
+      Icon: Circle
+      Allow: [Kalaji Orbit, Dynax Alpha Station, Etzomal Orbit]
+      Deny: [Myneria Orbit, Girivar Delta Station, Brandt Orbit, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Ranane, Ranane]
+      - ['-2323, 40, 12095', Ranane Moon, Ranane Moon]
+      - ['0, 0, 0', Ranane Orbit, Ranane Orbit]
+# Brandt
+    - Coordinates: [-38, 7, 45]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Anami Orbit, Kalaji Orbit, Dynax Alpha Station]
+      Deny: [Myneria Orbit, Girivar Delta Station, Ranane Orbit, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Etzomal Orbit, Luvendis Orbit]
+      Playfields:
+      - ['0, 0, 0', Brandt, Brandt]
+      - ['-2714, 13956, -2652', Brandt Moon, Brandt Moon]
+      - ['0, 0, 0', Brandt Orbit, Brandt Orbit]
+# Gharac Asteroid Field
+    - Coordinates: [18, 8, 68]
+      SectorMapType: AsteroidField
+      Color: "0.3,0.3,0.3"
+      Icon: Rhombus
+      Allow: [Rainfel Orbit, Hailmos Orbit]
+      Deny: [Kalaji Orbit, Myneria Orbit, Girivar Delta Station, Ranane Orbit, Brandt Orbit, Geretel Orbit, Etzomal Orbit, Dynax Alpha Station, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Gharac Asteroid Field, Gharac Asteroid Field]
+# Geretel
+    - Coordinates: [38, -9, 40]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Hailmos Orbit, Etzomal Orbit]
+      Deny: [Kalaji Orbit, Myneria Orbit, Girivar Delta Station, Ranane Orbit, Brandt Orbit, Gharac Asteroid Field, Rainfel Orbit, Dynax Alpha Station, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Geretel, Geretel]
+      - ['1583, 8841, -8271', Geretel Moon, Geretel Moon]
+      - ['0, 0, 0', Geretel Orbit, Geretel Orbit]
+# Rainfel
+    - Coordinates: [-31, -8, -17]
+      SectorMapType: Planet
+      Color: "0.37,0.33,0.04"
+      Icon: Circle
+      Allow: [Anami Orbit, Gharac Asteroid Field]
+      Deny: [Kalaji Orbit, Myneria Orbit, Girivar Delta Station, Ranane Orbit, Brandt Orbit, Geretel Orbit, Hailmos Orbit, Etzomal Orbit, Dynax Alpha Station, Luvendis Orbit]
+      Playfields:
+      - ['0, 0, 0', Rainfel, Rainfel]
+      - ['0, 0, 0', Rainfel Orbit, Rainfel Orbit]
+# Hailmos
+    - Coordinates: [4, 11, -28]
+      SectorMapType: Planet
+      Color: "0.3,0.06,0.04"
+      Icon: Circle
+      Allow: [Gharac Asteroid Field, Geretel Orbit]
+      Deny: [Kalaji Orbit, Myneria Orbit, Girivar Delta Station, Ranane Orbit, Brandt Orbit, Rainfel Orbit, Etzomal Orbit, Dynax Alpha Station, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Hailmos, Hailmos]
+      - ['0, 0, 0', Hailmos Orbit, Hailmos Orbit]
+# Etzomal
+    - Coordinates: [80, -9, -21]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Geretel Orbit, Ranane Orbit]
+      Deny: [Kalaji Orbit, Myneria Orbit, Girivar Delta Station, Brandt Orbit, Gharac Asteroid Field, Rainfel Orbit, Hailmos Orbit, Dynax Alpha Station, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Etzomal, Etzomal]
+      - ['-2610, 8199, -9955', Etzomal Moon, Etzomal Moon]
+      - ['0, 0, 0', Etzomal Orbit, Etzomal Orbit]
+# Dynax Alpha Station
+    - Coordinates: [-81, -8, 101]
+      SectorMapType: Station
+      Color: "0.7,0.5,0"
+      Icon: Kite
+      Allow: [Ranane Orbit, Girivar Delta Station, Brandt Orbit]
+      Deny: [Kalaji Orbit, Myneria Orbit, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Etzomal Orbit, Luvendis Orbit, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Dynax Alpha Station, Dynax Alpha Station]
+# Luvendis
+    - Coordinates: [-37, -19, -148]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Myneria Orbit, Kalaji Orbit]
+      Deny: [Girivar Delta Station, Ranane Orbit, Brandt Orbit, Gharac Asteroid Field, Geretel Orbit, Rainfel Orbit, Hailmos Orbit, Etzomal Orbit, Dynax Alpha Station, Anami Orbit]
+      Playfields:
+      - ['0, 0, 0', Luvendis, Luvendis]
+      - ['6460, 7645, -3865', Luvendis Moon, Luvendis Moon]
+      - ['0, 0, 0', Luvendis Orbit, Luvendis Orbit]
+# Anami
+    - Coordinates: [-33, -4, -88]
+      SectorMapType: Planet
+      Color: "0.04,0.5,0.1"
+      Icon: Circle
+      Allow: [Brandt Orbit, Rainfel Orbit, Myneria Orbit]
+      Deny: [Kalaji Orbit, Girivar Delta Station, Ranane Orbit, Gharac Asteroid Field, Geretel Orbit, Hailmos Orbit, Etzomal Orbit, Dynax Alpha Station, Luvendis Orbit]
+      Playfields:
+      - ['0, 0, 0', Anami, Anami]
+      - ['0, 0, 0', Anami Orbit, Anami Orbit]
