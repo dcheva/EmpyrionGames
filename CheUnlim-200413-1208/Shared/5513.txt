@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Lelotud,5513,'B.A.S.E',BA,[Private 1136]          ,1879,138,-262 60 588.5,0 180 0,True,True,False,4/13/2020 8:45:42 AM,651513,'dmytro.cheva',76561198412322587,4/13/2020 8:45:42 AM,651514,
+Lelotud,5513,'B.A.S.E',BA,[Private 1136]          ,1883,142,-262 60 588.5,0 180 0,True,True,False,4/13/2020 9:04:47 AM,674334,'dmytro.cheva',76561198412322587,4/13/2020 9:05:10 AM,674798,
+Lelotud,5513,'B.A.S.E',BA,[Private 1136]          ,1883,142,-262 60 588.5,0 180 0,True,True,False,4/13/2020 9:04:47 AM,674334,'dmytro.cheva',76561198412322587,4/13/2020 9:08:44 AM,675218,

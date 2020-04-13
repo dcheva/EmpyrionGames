@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Lelotud,5656,'Merc-MX10',SV,[Private 1136]          ,1769,147,-256.532 80.00009 582.8571,-0.004915998 181.4704 -4.775656E-05,True,False,True,4/13/2020 9:33:02 AM,704252,'dmytro.cheva',76561198412322587,4/13/2020 9:35:33 AM,707277,
