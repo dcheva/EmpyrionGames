@@ -1,3 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Arid Planet,3022,'Merc-MX5E',SV,[Private 1003]          ,1065,93,-15662.92 1087.762 -1442.488,308.235 100.0567 359.0016,True,True,False,4/12/2020 4:49:06 PM,298064,'dmytro.cheva',76561198412322587,4/12/2020 4:49:07 PM,298065,
-Arid Orbit,3022,'Merc-MX5E',SV,[Private 1003]          ,1065,93,-3335.766 3427.384 7635.456,0.244612 346.4702 157.5324,True,True,False,4/12/2020 4:56:51 PM,307358,'dmytro.cheva',76561198412322587,4/12/2020 4:56:51 PM,307359,

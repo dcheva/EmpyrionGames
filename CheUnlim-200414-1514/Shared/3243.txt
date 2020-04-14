@@ -1,2 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Lelotud,3243,'Merc-MX5E',SV,[NoFaction],0,0,-290.7056 62.18933 598.669,5.04904 179.3221 0.2107704,False,False,False,4/12/2020 10:07:27 PM,317241,'dmytro.cheva',76561198412322587,4/12/2020 10:07:55 PM,317795,DECAYED

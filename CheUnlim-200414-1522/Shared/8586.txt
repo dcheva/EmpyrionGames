@@ -1,3 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Tsunoc,8586,'-Framelock- Day Zero [-Level 1 HV-]',HV,[Private 1136]          ,40,7,5958.353 89.00018 -2135.276,0.0004058627 176.5244 270.0026,True,False,False,4/14/2020 8:29:00 AM,1563578,'dmytro.cheva',76561198412322587,4/14/2020 8:32:56 AM,1568299,
-Tsunoc,8586,'-Framelock- Day Zero [-Level 1 HV-]',HV,[NoFaction],0,0,5954.429 89.41956 -2133.145,0.003545895 350.1484 0.006485708,False,False,False,4/14/2020 8:43:15 AM,1575394,'dmytro.cheva',76561198412322587,4/14/2020 8:43:36 AM,1575817,DECAYED
