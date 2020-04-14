@@ -1,0 +1,7 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Tsunoc,7718,'-Slip Joint- ?',SV,[Private 1136]          ,440,101,3630.646 65.49188 1039.044,4.037282 210.7159 2.576983,True,False,False,4/13/2020 2:47:27 PM,1055595,'dmytro.cheva',76561198412322587,4/13/2020 2:47:27 PM,1055595,
+Tsunoc,7718,'-Slip Joint- С',SV,[Private 1136]          ,439,101,-851.1558 92.16881 1203.909,6.55456 179.4402 0.1100156,True,True,False,4/13/2020 3:16:20 PM,1087652,'dmytro.cheva',76561198412322587,4/13/2020 3:16:21 PM,1087653,
+Tsunoc,7718,'-Slip Joint- С',SV,[Private 1136]          ,439,101,-5367.871 93.40367 -2574.097,321.3409 233.2369 351.4666,True,True,False,4/13/2020 3:39:45 PM,1115688,'dmytro.cheva',76561198412322587,4/13/2020 3:39:45 PM,1115689,
+Tsunoc,7718,'-Slip Joint- С',SV,[Private 1136]          ,439,101,-5367.686 93.73845 -2573.885,321.178 231.7331 352.3934,True,True,False,4/13/2020 3:39:59 PM,1115897,'dmytro.cheva',76561198412322587,4/13/2020 3:39:59 PM,1115898,
+Tsunoc,7718,'-Slip Joint- С',SV,[Private 1136]          ,439,101,-5702.711 55.00277 -2906.218,-0.00110947 0.02095567 0.005035561,True,False,True,4/13/2020 5:07:09 PM,1213850,'dmytro.cheva',76561198412322587,4/13/2020 5:08:24 PM,1215335,
+Tsunoc,7718,'-Slip Joint- С',SV,[Private 1136]          ,439,101,-5702.711 55.00277 -2906.218,-0.00110947 0.02095567 0.005035561,True,False,True,4/13/2020 5:40:10 PM,1215549,'dmytro.cheva',76561198412322587,4/13/2020 5:59:50 PM,1227740,

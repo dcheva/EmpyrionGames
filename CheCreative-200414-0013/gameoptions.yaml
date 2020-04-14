@@ -1,0 +1,23 @@
+Options:
+- ValidFor:
+  - SP
+  - Creative
+  DecayTime: 0
+  ProtectTime: 0
+  ProtectDelay: 0
+  MaxStructures: 255
+  AntiGriefDistancePvE: 0
+  AntiGriefDistancePvP: 0
+  AntiGriefOresDistance: 0
+  EnableTrading: Player2System
+  EnableMaxBlockCount: false
+  EnableCPUPoints: true
+  GroundedStructureSpawn: false
+- ValidFor:
+  - MP
+  - Creative
+  EnableCPUPoints: true
+  AutoMinerDepletion: false
+  TurretUndergroundCheck: true
+  DespawnEscapePod: true
+  RegeneratePOIs: true
