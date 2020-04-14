@@ -1,0 +1,219 @@
+---
+# Space Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html 
+
+# Playfield Characteristics
+Gravity: 0
+AtmosphereEnabled: False
+PvP: True
+UseFixed: True
+Radiation: 7.294339
+TemperatureDay: -157
+Music: Migration
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2
+
+PlayfieldLevel: 3
+PlayfieldType: Space
+
+PlanetType: Space
+
+IsOrbitPlayfield: True
+Description: 
+
+SunFlare: EnvironmentalEffects/SunFlareWhiteSpace
+Stars: SkyboxStarsCyan
+Nebula: PrefabNebulaBlueYellow
+
+
+### POIs
+POIs:
+    Fixed:
+        - Type: AsteroidFieldBoxExclude
+          Name: Asteroid Field
+          Pos: [0, 0, 0]
+          Rot: [171, -4, 105]
+
+        - Type: BA_Alien
+          Prefab: TSO_Variant3
+          Mode: Survival
+          Name: Trading Station
+          Pos: [-18.42855, 7846.214, -771.5387]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: Music
+              Value: NebularClouds
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAsteroidMining
+          Mode: Survival
+          Name: Mining Facility
+          Pos: [-6713.722, -5014.052, -3523.268]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAsteroidMining
+          Mode: Survival
+          Name: Mining Facility
+          Pos: [-4924.208, -2241.592, -7624.763]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAsteroidMining
+          Mode: Survival
+          Name: Mining Facility
+          Pos: [-3657.959, -4547.685, -7992.67]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAlloySynthesis
+          Mode: Survival
+          Name: Alloy Synthesis Factory
+          Pos: [-1212.954, 5762.959, 7056.551]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_JettisonedCargoPod
+          Mode: Survival
+          Name: Wreckage
+          Pos: [7503.611, 4510.229, 4331.08]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: CV_LightCarrierWreck
+          Mode: Survival
+          Name: Wreckage
+          Pos: [-6843.562, 5789.87, 1899.676]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_CombatWreckage
+          Mode: Survival
+          Name: Wreckage
+          Pos: [-6932.173, -6049.695, 945.6716]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium
+          Name: Promethium Asteroid
+          Pos: [-5524, -6276, -4543]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [-1961.263, 1482.585, -14221.8]
+          DroneOnDuty:
+            - Name: SpaceDroneLaser
+              Pos: [-6265.763, -898.4471, -16514.03]
+              Radius: 354
+            - Name: SpaceDronePlasma
+              Pos: [2389.914, -5503.564, -12981.12]
+              Radius: 448
+            - Name: SpaceDroneLaser
+              Pos: [6624.519, 490.9729, 11947.03]
+              Radius: 429
+            - Name: SpaceDronePlasma
+              Pos: [-14512.24, -4334.591, -5449.851]
+              Radius: 683
+          SpaceVessel:
+            - Name: Freighter
+              Faction: Polaris
+              FixedMaxSpeed: 37
+              Mission: Freighter
+              Freighter:
+                DelayBetweenRespawn: 424
+                DelayBeforeSelfDestruction: 215
+                IsRespawnAfterDestruction: True
+                PathWayPoint:
+                - [-8802, 4508, 2096]
+                - [-2761, 6816, 9262]
+                - [6890, -3170, 7286]
+                - [11016, 8507, -2624]
+                - [2880, 9476, -9660]
+                - [-6785, 3252, -7176]
+              Stock:
+                - Name: SpaceDronePlasma
+                  Amount: 4
+                  Extra: 1
+            - Name: OrbitalPatrolVessel
+              Faction: Zirax
+              FixedMaxSpeed: 32
+              Mission: SpacePatrol
+              RangePatrol:
+                Position3D: [9350.076, -976.4191, -2074.488]
+                Radius: 1006
+                DistToGround: 0
+              Stock:
+                - Name: SpaceDronePlasma
+                  Amount: 4
+                  Extra: 1
+
+Build: 2785
