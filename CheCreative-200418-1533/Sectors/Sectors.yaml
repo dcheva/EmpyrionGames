@@ -1,0 +1,22 @@
+---
+# Sectors MP
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs: http://yaml.org/faq.html
+# Default starter planets on a Dedicated Server are Akua, Omicron, Ningues and Masperon. 'Origin:Number' behind playfield template sets starter planet [ "0, 0, 0", Akua, Temperate, 'Human:1' ]
+# Allow and Deny lists: If “Allow” is set, sectors that are given in list are accessible in addition to those that are close enough. If “Deny” is set, sectors that are given in list are not accessible.
+
+Build: 1725
+Sectors:
+  - Coordinates: [0, 30, 0]
+    SectorMapType: None
+    Playfields:
+    - ['0, 0, 0', Sun, Sun]
+  - Coordinates: [93, -200, 117]
+    SectorMapType: Planet
+    Playfields:
+    - ['0, 0, 0', Temperate Planet, TemperateCreative, 'Human:1']  
+    - ['0, 0, 0', Temperate Orbit, SpaceOrbitCreative, 'Human:1']
+  - Coordinates: [128, -200, -26]
+    SectorMapType: Planet
+    Playfields:
+    - ['0, 0, 0', Arid Planet, AridCreative, 'Human:1']   
+    - ['0, 0, 0', Arid Orbit, SpaceOrbit]   

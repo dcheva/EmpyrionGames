@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Temperate Planet,5005,'????? ????? (??)',SV,[NoFaction],0,0,-4627.712 58.25702 -4015.904,0 0.09306032 0,False,False,False,4/18/2020 12:17:10 PM,701907,'Server',Server,4/18/2020 12:25:24 PM,711778,DECAYED

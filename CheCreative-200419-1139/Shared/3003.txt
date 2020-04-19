@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Temperate Planet,3003,'????? ????? (??)',SV,[Private 1003]          ,301,48,6391.554 1094.801 3701.236,314.5294 89.98273 359.8314,True,True,False,4/12/2020 3:59:44 PM,238819,'dmytro.cheva',76561198412322587,4/12/2020 3:59:44 PM,238820,
+Temperate Orbit,3003,'Малое судно (МС)',SV,[Private 1003]          ,303,48,-295.4951 -1610.485 -7418.42,0.02709802 166.433 0.2278077,True,True,False,4/12/2020 4:30:21 PM,275554,'dmytro.cheva',76561198412322587,4/12/2020 4:30:21 PM,275555,
+Arid Orbit,3003,'Малое судно (МС)',SV,[Private 1003]          ,304,49,-440.4999 -816.8345 4021.475,321.3922 171.5321 359.8271,True,True,False,4/12/2020 4:35:11 PM,281352,'dmytro.cheva',76561198412322587,4/12/2020 4:35:11 PM,281353,
