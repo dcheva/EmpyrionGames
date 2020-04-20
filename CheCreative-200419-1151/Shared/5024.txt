@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Arid Planet,5024,'-Prospector- Cargo Mining Hauler [Level 10 CV][Alpha 9]',CV,[Private 1003]          ,474,117,-11191.09 51.16922 -1335.297,357.8342 273.4648 359.2852,True,True,False,4/20/2020 12:50:28 PM,921047,'dmytro.cheva',76561198412322587,4/20/2020 12:56:23 PM,928147,

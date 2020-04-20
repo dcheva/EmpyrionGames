@@ -1,0 +1,8 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Armastor,2240,'???? (??)',BA,[Private 1135]          ,197,8,-1572 80.5 -1500.5,0 180 0,True,False,False,4/19/2020 8:59:06 PM,218807,'dmytro.cheva',76561198412322587,4/19/2020 9:01:06 PM,221198,
+Armastor,2240,'База (БА)',BA,[Private 1135]          ,372,23,-1572 80.5 -1500.5,0 180 0,True,True,False,4/19/2020 9:34:11 PM,260850,'dmytro.cheva',76561198412322587,4/19/2020 9:34:11 PM,260851,
+Armastor,2240,'База (БА)',BA,[Private 1135]          ,372,23,-1572 80.5 -1500.5,0 180 0,True,True,False,4/19/2020 11:01:55 PM,445144,'dmytro.cheva',76561198412322587,4/19/2020 11:02:29 PM,492371,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,537,30,-1572 80.5 -1500.5,0 180 0,True,True,False,4/20/2020 1:21:52 AM,737327,'dmytro.cheva',76561198412322587,4/20/2020 1:21:52 AM,737327,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,537,30,-1572 80.5 -1500.5,0 180 0,True,True,False,4/20/2020 2:03:33 AM,836016,'dmytro.cheva',76561198412322587,4/20/2020 2:03:33 AM,836016,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,537,30,-1572 80.5 -1500.5,0 180 0,True,True,False,4/20/2020 2:05:54 AM,838782,'dmytro.cheva',76561198412322587,4/20/2020 2:11:28 AM,845451,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,535,30,-1572 80.5 -1500.5,0 180 0,True,True,False,4/20/2020 2:58:54 AM,900816,'dmytro.cheva',76561198412322587,4/20/2020 2:58:55 AM,900816,

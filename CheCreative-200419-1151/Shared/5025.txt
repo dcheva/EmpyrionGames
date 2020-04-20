@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Arid Planet,5025,'~Eskabar T2 missile',SV,[Private 1003]          ,518,112,-11193.64 58.47569 -1337.68,357.8553 275.5795 359.2123,True,False,True,4/20/2020 12:50:22 PM,920933,'dmytro.cheva',76561198412322587,4/20/2020 12:56:23 PM,928147,
