@@ -54,3 +54,6 @@ Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 
 Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 -1500.5,0 180 0,True,True,False,4/21/2020 4:33:14 PM,2771559,'dmytro.cheva',76561198412322587,4/21/2020 5:44:01 PM,2838888,
 Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 -1500.5,0 180 0,True,True,False,4/21/2020 4:33:14 PM,2771559,'dmytro.cheva',76561198412322587,4/21/2020 5:44:11 PM,2838996,
 Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 -1500.5,0 180 0,True,True,False,4/21/2020 4:33:14 PM,2771559,'dmytro.cheva',76561198412322587,4/21/2020 5:44:30 PM,2839260,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 -1500.5,0 180 0,True,True,False,4/21/2020 6:10:03 PM,2843599,'dmytro.cheva',76561198412322587,4/21/2020 6:16:31 PM,2851367,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 -1500.5,0 180 0,True,True,False,4/21/2020 6:10:03 PM,2843599,'dmytro.cheva',76561198412322587,4/21/2020 6:30:35 PM,2868071,
+Armastor,2240,'L3T1 Starter Base',BA,[Private 1135]          ,564,43,-1572 80.5 -1500.5,0 180 0,True,True,False,4/21/2020 6:10:03 PM,2843599,'dmytro.cheva',76561198412322587,4/21/2020 6:32:23 PM,2868836,
