@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Armastor,11919,'????? ????? (??)',SV,[Private 1135]          ,39,21,-1600.952 82.49025 -1483.385,2.093283 221.9678 94.02002,True,False,False,4/21/2020 8:29:12 AM,2400093,'dmytro.cheva',76561198412322587,4/21/2020 8:32:12 AM,2403415,
