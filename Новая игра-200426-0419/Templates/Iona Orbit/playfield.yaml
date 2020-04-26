@@ -1,0 +1,369 @@
+---
+# Space Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html 
+
+# Playfield Characteristics
+Gravity: 0
+AtmosphereEnabled: False
+PvP: False
+UseFixed: True
+Radiation: 6.735319
+TemperatureDay: -170
+Music: Migration
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2
+
+PlayfieldLevel: 2
+PlayfieldType: Space
+
+PlanetType: Space
+
+IsOrbitPlayfield: True
+Description: 
+
+SunFlare: EnvironmentalEffects/SunFlareWhiteSpace
+Stars: SkyboxStarsCyan
+Nebula: PrefabNebulaBlue2
+
+
+### POIs
+POIs:
+    Fixed:
+        - Type: AsteroidFieldFewBoxExclude
+          Name: Asteroid Field
+          Pos: [0, 0, 0]
+          Rot: [7, -9, -108]
+
+        - Type: BA_Alien
+          Prefab: TSO_Variant1
+          Mode: Survival
+          Name: Trading Station
+          Pos: [-407.3928, 3921.08, -384.4529]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: Music
+              Value: NebularClouds
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PiratesSlaveMarket
+          Mode: Survival
+          Name: Asteroid Station
+          Pos: [-3578.332, 1899.063, -3060.244]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: DarkSoundscape3
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAsteroidMining
+          Mode: Survival
+          Name: Mining Facility
+          Pos: [-2249.806, -1729.232, 4101.169]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAsteroidMining
+          Mode: Survival
+          Name: Mining Facility
+          Pos: [4235.252, 235.4714, 3655.94]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAlloySynthesis
+          Mode: Survival
+          Name: Alloy Synthesis Factory
+          Pos: [2502.578, -3517.792, 3195.343]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_PolarisAlloySynthesis
+          Mode: Survival
+          Name: Alloy Synthesis Factory
+          Pos: [2940.036, -1808.869, -4127.76]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: Polaris
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: Music
+              Value: Vanguard
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: SV_FA005XHunter
+          Mode: Survival
+          Name: Wreckage
+          Pos: [-4444.435, 2236.023, 2987.885]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: SV_FA005XHunter
+          Mode: Survival
+          Name: Wreckage
+          Pos: [-4078.236, 2512.987, -2039.024]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_SeveredShip
+          Mode: Survival
+          Name: Wreckage
+          Pos: [3352.412, 3354.446, -3284.311]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_BurntOutReconVessel
+          Mode: Survival
+          Name: Wreckage
+          Pos: [3642.026, 4902.226, -2152.214]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: BA_Alien
+          Prefab: BAO_JettisonedCargoPod
+          Mode: Survival
+          Name: Wreckage
+          Pos: [3072.234, 2801.956, -4242.321]
+          Rot: [0, 0, 0]
+          InitPower: True
+          Faction: None
+          Properties:
+            - Key: RegenAfter
+              Value: 720
+            - Key: MapDistance
+              Value: 2500
+
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper
+          Name: Copper Asteroid
+          Pos: [4525, -2183, -66]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel01Copper
+          Prefab: AsteroidVoxel01Copper
+          Name: Copper Asteroid
+          Pos: [-3508, -621, -3989]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper
+          Name: Copper Asteroid
+          Pos: [-4070, -4298, -1052]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel03Silicon
+          Prefab: AsteroidVoxel03Silicon
+          Name: Silicon Asteroid
+          Pos: [-4086, -3124, -3475]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel02Silicon
+          Prefab: AsteroidVoxel02Silicon
+          Name: Silicon Asteroid
+          Pos: [-3656, -1383, -4399]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon
+          Name: Silicon Asteroid
+          Pos: [-1276, -2866, 5065]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel03Pentaxid
+          Prefab: AsteroidVoxel03Pentaxid
+          Name: Pentaxid Asteroid
+          Pos: [4701, 1666, -2788]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel02Pentaxid
+          Prefab: AsteroidVoxel02Pentaxid
+          Name: Pentaxid Asteroid
+          Pos: [4242, -3994, -1686]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid
+          Pos: [-3338, 3105, -4156]
+          Rot: [0, 0, 0]
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [-5489.589, -3807.08, -8613.468]
+          DroneOnDuty:
+            - Name: SpaceDroneLaser
+              Pos: [8590.068, -2054.589, -7889.113]
+              Radius: 629
+            - Name: SpaceDronePlasma
+              Pos: [10520.7, 2401.321, -3570.64]
+              Radius: 552
+            - Name: SpaceDronePlasma
+              Pos: [-4705.226, 954.9532, 7665.666]
+              Radius: 466
+            - Name: SpaceDronePlasma
+              Pos: [2098.425, -1778.062, 8590.044]
+              Radius: 388
+          SpaceVessel:
+            - Name: Freighter
+              Faction: Polaris
+              FixedMaxSpeed: 24
+              Mission: Freighter
+              Freighter:
+                DelayBetweenRespawn: 513
+                DelayBeforeSelfDestruction: 235
+                IsRespawnAfterDestruction: True
+                PathWayPoint:
+                - [5606, 3789, 18]
+                - [4368, 182, 5513]
+                - [-1517, 3902, 6552]
+                - [-5442, 5958, 2599]
+                - [-6139, -1004, -2981]
+                - [-1404, 4890, -6246]
+                - [3820, -1313, -4759]
+              Stock:
+                - Name: SpaceDroneLaser
+                  Amount: 4
+                  Extra: 1
+            - Name: Freighter
+              Faction: Polaris
+              FixedMaxSpeed: 27
+              Mission: Freighter
+              Freighter:
+                DelayBetweenRespawn: 352
+                DelayBeforeSelfDestruction: 240
+                IsRespawnAfterDestruction: True
+                PathWayPoint:
+                - [4911, 1647, -239]
+                - [2801, -5599, 4348]
+                - [-2409, -6265, 4687]
+                - [-5215, -2436, 254]
+                - [-2856, -3113, -4433]
+                - [2473, 4816, -4810]
+              Stock:
+                - Name: SpaceDroneLaser
+                  Amount: 4
+                  Extra: 1
+            - Name: BAO_XenuShipyard
+              Faction: Zirax
+              FixedMaxSpeed: 0
+              Mission: Immobile
+              Immobile:
+                Position3D: [3674.507, 5020.388, -3321.221]
+              Stock:
+                - Name: SpaceDroneLaser
+                  Amount: 16
+                  Extra: 1
+              Properties:
+                - Key: RegenAfter
+                  Value: 720
+            - Name: BAO_CrusaldOrbital
+              Faction: Zirax
+              FixedMaxSpeed: 0
+              Mission: Immobile
+              Immobile:
+                Position3D: [-2425.717, 1521.632, -4329.293]
+              Stock:
+                - Name: SpaceDronePlasma
+                  Amount: 15
+                  Extra: 1
+              Properties:
+                - Key: RegenAfter
+                  Value: 720
+
+Build: 2785
