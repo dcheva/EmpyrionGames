@@ -1,6 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Armastor,5176,'Eskabar',SV,[Private 1135]          ,545,104,-1573.435 87.63364 -1529.991,3.026177 278.8419 3.859909,True,True,False,4/20/2020 2:11:27 AM,845451,'dmytro.cheva',76561198412322587,4/20/2020 2:11:28 AM,845451,
-Armastor,5176,'Eskabar',SV,[Private 1135]          ,545,104,2433.013 174.1221 3992.319,13.28414 342.0493 359.2917,True,True,False,4/20/2020 2:27:25 AM,864538,'dmytro.cheva',76561198412322587,4/20/2020 2:27:26 AM,864539,
-Armastor,5176,'Eskabar',SV,[Private 1135]          ,530,102,2208.767 80.89499 4447.815,351.5032 185.4967 355.5798,True,False,False,4/20/2020 2:33:16 AM,871498,'dmytro.cheva',76561198412322587,4/20/2020 2:33:22 AM,871612,
-Armastor,5176,'Eskabar',SV,[Private 1135]          ,528,102,-1533.503 70.97514 -1553.064,21.54423 142.3343 1.47857,True,False,False,4/20/2020 2:49:14 AM,890523,'dmytro.cheva',76561198412322587,4/20/2020 2:58:55 AM,900816,
-Armastor,5176,'Eskabar',SV,[NoFaction],0,0,-1533.55 75.87155 -1553.014,21.54423 142.3343 1.47857,False,False,False,4/20/2020 3:13:31 AM,918279,'dmytro.cheva',76561198412322587,4/20/2020 3:18:12 AM,923908,DECAYED

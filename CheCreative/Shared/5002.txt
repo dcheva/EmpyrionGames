@@ -1,2 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Temperate Planet,5002,'???? (??)',BA,[NoFaction],0,0,-4626.5 42.5 -3984,0 180 0,False,False,False,4/13/2020 8:15:40 PM,418330,'dmytro.cheva',76561198412322587,4/13/2020 8:20:01 PM,423547,DECAYED

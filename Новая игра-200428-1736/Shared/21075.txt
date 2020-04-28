@@ -1,5 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Vyti,21075,'~Eskabar T2 missile',SV,[Private 1135]          ,621,110,-3123.6 108.0583 -2651.755,8.018017 176.7186 27.0229,True,True,False,4/27/2020 12:58:00 PM,4332090,'dmytro.cheva',76561198412322587,4/27/2020 12:58:00 PM,4332090,
-Vyti,21075,'~Eskabar T2 missile',SV,[Private 1135]          ,621,110,-3123.479 107.4819 -2652.591,359.0698 178.1308 27.11676,True,True,False,4/27/2020 12:58:12 PM,4332194,'dmytro.cheva',76561198412322587,4/27/2020 12:58:12 PM,4332194,
-Vyti,21075,'~Eskabar T2 missile',SV,[Private 1135]          ,621,110,-3123.51 107.4862 -2652.572,359.146 177.6294 27.12489,True,True,False,4/27/2020 12:58:21 PM,4332253,'dmytro.cheva',76561198412322587,4/27/2020 12:58:22 PM,4332253,
-Vyti,21075,'~Eskabar T2 missile',SV,[Private 1135]          ,621,110,-2633.687 86.53548 -369.1316,6.150057 37.09622 5.975882,True,True,False,4/28/2020 2:36:45 PM,4346651,'dmytro.cheva',76561198412322587,4/28/2020 2:36:46 PM,4346652,

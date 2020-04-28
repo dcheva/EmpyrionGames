@@ -1,8 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Temperate Planet,5006,'????? ????? (??)',SV,[Private 1003]          ,68,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/18/2020 12:31:54 PM,719580,'dmytro.cheva',76561198412322587,4/18/2020 12:33:40 PM,721706,
-Temperate Planet,5006,'Малое судно (МС)',SV,[Private 1003]          ,73,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/18/2020 12:34:48 PM,723070,'dmytro.cheva',76561198412322587,4/18/2020 12:36:21 PM,724926,
-Temperate Planet,5006,'Малое судно (МС)',SV,[Private 1003]          ,73,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/18/2020 12:34:48 PM,723070,'dmytro.cheva',76561198412322587,4/18/2020 12:36:33 PM,725169,
-Temperate Planet,5006,'Малое судно (МС)',SV,[Private 1003]          ,73,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/18/2020 12:34:48 PM,723070,'dmytro.cheva',76561198412322587,4/18/2020 12:49:46 PM,725241,
-Temperate Planet,5006,'Малое судно (МС)',SV,[Private 1003]          ,462,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/19/2020 8:38:59 AM,742603,'dmytro.cheva',76561198412322587,4/19/2020 8:39:10 AM,742813,
-Temperate Planet,5006,'Малое судно (МС)',SV,[Private 1003]          ,2923,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/19/2020 8:50:23 AM,756279,'dmytro.cheva',76561198412322587,4/19/2020 8:50:23 AM,756280,
-Temperate Planet,5006,'Малое судно (МС)',SV,[Public]   ,2554,5,-4627.725 58.47964 -4016.129,0 0 0,True,False,False,4/19/2020 8:59:09 AM,765730,'dmytro.cheva',76561198412322587,4/19/2020 8:59:46 AM,766479,

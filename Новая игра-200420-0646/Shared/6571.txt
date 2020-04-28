@@ -1,2 +1,0 @@
-playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
-Armastor,6571,'-Ka Bar- Eskabar',SV,[Private 1135]          ,545,104,-1583.315 79.46378 -1483.997,358.7837 281.2838 358.9838,True,False,False,4/20/2020 3:44:08 AM,1004258,'dmytro.cheva',76561198412322587,4/20/2020 3:46:01 AM,1006522,
